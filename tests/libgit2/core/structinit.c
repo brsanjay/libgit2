@@ -203,4 +203,12 @@ void test_core_structinit__compare(void)
 	CHECK_MACRO_FUNC_INIT_EQUAL( \
 		git_diff_patchid_options, GIT_DIFF_PATCHID_OPTIONS_VERSION, \
 		GIT_DIFF_PATCHID_OPTIONS_INIT, git_diff_patchid_options_init);
+
+	CHECK_MACRO_FUNC_INIT_EQUAL( \
+		git_bundle_create_options, GIT_BUNDLE_CREATE_OPTIONS_VERSION, \
+		GIT_BUNDLE_CREATE_OPTIONS_INIT, git_bundle_create_options_init);
+
+	CHECK_MACRO_FUNC_INIT_EQUAL( \
+		git_bundle_unbundle_options, GIT_BUNDLE_UNBUNDLE_OPTIONS_VERSION, \
+		GIT_BUNDLE_UNBUNDLE_OPTIONS_INIT, git_bundle_unbundle_options_init);
 }
